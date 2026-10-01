@@ -24,3 +24,27 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun Act2Column(modifier: Modifier){
+    Column(
+        modifier = Modifier
+            .padding(top = 28.dp, start = 28.dp)
+    ) {
+        Text("Hello")
+        Text("World")
+    }
+}
+
+@Composable
+fun Act2Row(modifier: Modifier){
+    val kota = stringResource(id = R.string.kota)
+    Row(
+        modifier = Modifier
+            .padding(top = 60.dp, start = 60.dp)
+            .fillMaxWidth()
+    ) {
+        Text(text = "Hello")
+        Text(text = kota)
+    }
+}
+
