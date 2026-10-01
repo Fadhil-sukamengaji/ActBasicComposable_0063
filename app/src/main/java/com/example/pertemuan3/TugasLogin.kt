@@ -91,6 +91,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.size(4.dp))
+
+            Text(
+                text = "Fadhil Mudzaki Hartono putra",
+                color = Color.Black,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold
+            )
+
 
         }
     }
