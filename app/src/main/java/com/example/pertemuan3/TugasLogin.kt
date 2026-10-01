@@ -34,5 +34,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxSize()
             .background(Color.Black)
-    )
+    ){
+        Image(
+            painter = background,
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+
+    }
 }
