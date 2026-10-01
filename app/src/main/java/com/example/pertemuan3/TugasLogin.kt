@@ -30,5 +30,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     val logo = painterResource(id = R.drawable.logo_umy)
     val kaaba = painterResource(id = R.drawable.gambar)
 
-
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color.Black)
+    )
 }
