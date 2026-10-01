@@ -78,7 +78,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Image(
                 painter = logo,
                 contentDescription = "Logo UMY",
-                modifier = Modifier.size(125.dp),
+                modifier = Modifier.size(185.dp),
                 contentScale = ContentScale.Fit
             )
 
