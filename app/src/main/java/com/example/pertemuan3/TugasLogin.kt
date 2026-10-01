@@ -28,7 +28,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
     val background = painterResource(id = R.drawable.background_login)
     val logo = painterResource(id = R.drawable.logo_umy)
-    val kaaba = painterResource(id = R.drawable.gambar)
+    val profile = painterResource(id = R.drawable.gambar)
 
     Box(
         modifier = modifier
@@ -109,7 +109,21 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.size(12.dp))
 
+            Image(
+                painter = profile,
+                contentDescription = "Foto Profile",
+                modifier = Modifier
+                    .size(285.dp)
+                    .clip(CircleShape)
+                    .border(
+                        width = 4.dp,
+                        color = Color.White,
+                        shape = CircleShape
+                    ),
+                contentScale = ContentScale.Crop
+            )
         }
     }
 }
