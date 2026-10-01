@@ -46,6 +46,28 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .fillMaxSize()
                 .background(Color.Black.copy(alpha = 0.25f))
         )
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(
+                    start = 25.dp,
+                    end = 25.dp,
+                    top = 55.dp
+                ),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
 
+            Spacer(modifier = Modifier.size(15.dp))
+
+            Text(
+                text = "Login",
+                color = Color.Blue,
+                fontSize = 27.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+
+        }
     }
 }
