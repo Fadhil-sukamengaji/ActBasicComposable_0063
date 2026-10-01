@@ -28,7 +28,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
     val background = painterResource(id = R.drawable.background_login)
     val logo = painterResource(id = R.drawable.logo_umy)
-    val profile = painterResource(id = R.drawable.gambar)
+    val profile = painterResource(id = R.drawable.profile)
 
     Box(
         modifier = modifier
@@ -70,7 +70,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Text(
                 text = "Ini adalah halaman login,",
                 color = Color.White,
-                fontSize = 14.sp
+                fontSize = 16.sp
             )
 
             Spacer(modifier = Modifier.size(45.dp))
@@ -87,7 +87,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Text(
                 text = "Nama",
                 color = Color.White,
-                fontSize = 13.sp,
+                fontSize = 18.sp,
                 fontWeight = FontWeight.Bold
             )
 
@@ -96,7 +96,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Text(
                 text = "Fadhil Mudzaki Hartono putra",
                 color = Color.Black,
-                fontSize = 14.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
             )
 
