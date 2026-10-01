@@ -149,7 +149,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .fillMaxWidth()
                 .height(110.dp)
-                .background(Color.Yellow),
+                .background(Color.Gray),
             contentAlignment = Alignment.Center
         ){
             Column() {
@@ -176,7 +176,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .fillMaxWidth()
                 .height(300.dp)
-                .background(Color.Cyan),
+                .background(Color.DarkGray),
             contentAlignment = Alignment.Center
         ) {
             Image(
@@ -187,7 +187,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             Text(
                 text = "My Bachlil",
                 fontSize = 50.sp,
-                color = Color.Red,
+                color = Color.White,
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Cursive,
                 modifier = Modifier.align(
