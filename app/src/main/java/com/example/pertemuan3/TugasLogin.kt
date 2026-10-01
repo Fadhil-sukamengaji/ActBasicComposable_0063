@@ -73,6 +73,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 14.sp
             )
 
+            Spacer(modifier = Modifier.size(45.dp))
+
+            Image(
+                painter = logo,
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(125.dp),
+                contentScale = ContentScale.Fit
+            )
+
 
         }
     }
